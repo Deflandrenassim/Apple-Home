@@ -1,32 +1,29 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+  <div>
+     <nav class="Navbar">
+        <router-link to="/" class="choix"> Home  </router-link> 
+        <router-link to="/Iphone" class="choix"> IPHONE  </router-link> 
+        <router-link to="/Ipad" class="choix"> IPAD </router-link> 
+        <router-link to="/Mac" class="choix"> MAC  </router-link> 
+        <router-link to="/Watch" class="choix"> WATCH  </router-link> 
+        <router-link to="/Airpods" class="choix"> AIRPODS </router-link> 
+
+    
+      </nav>
+
     <router-view/>
   </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
 
-#nav {
-  padding: 30px;
-}
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+export default {
+  name: 'App',
+  components:  'Home'
+
+};
+</script>
+
+
