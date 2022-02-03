@@ -2,6 +2,7 @@
   <div>
     <div class="container">
      <nav class="Navbar">
+       <i class="fab fa-apple"></i>
         <router-link to="/" class="choix"> Home  </router-link> 
         <router-link to="/Iphone" class="choix"> IPHONE  </router-link> 
         <router-link to="/Ipad" class="choix"> IPAD </router-link> 
@@ -31,9 +32,13 @@ export default {
 .container{
   display: flex;
   justify-content: center;
+  height: 4vh;
+  background-color: rgba(92, 91, 91, 0.795);
+  color : white;
 }
 .choix{
-  padding: 19px;
+  
+  padding: 20px;
 }
 
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    Je suis les Airpods
+ 
   </div>
 </template>
 
