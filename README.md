@@ -1,5 +1,8 @@
-# projet
+# projet 
+```
+CSS = Vuetify and CSS 
 
+```
 ## Project setup
 ```
 npm install

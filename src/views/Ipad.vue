@@ -1,6 +1,6 @@
 <template>
   <div>
-     <p> Ipad 2020</p>
+
   </div>
 </template>
 
