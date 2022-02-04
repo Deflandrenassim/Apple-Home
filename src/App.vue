@@ -1,8 +1,7 @@
 <template>
   <div>
-    <div class="container">
+    <div class="containe">
      <nav class="Navbar">
-       <i class="fab fa-apple"></i>
         <router-link to="/" class="choix"> Home  </router-link> 
         <router-link to="/Iphone" class="choix"> IPHONE  </router-link> 
         <router-link to="/Ipad" class="choix"> IPAD </router-link> 
@@ -22,23 +21,30 @@
 
 export default {
   name: 'App',
-  components:  'Home'
 
 };
 </script>
 
 <style>
 
-.container{
+.containe{
   display: flex;
   justify-content: center;
-  height: 4vh;
-  background-color: rgba(92, 91, 91, 0.795);
+  height: 5vh;
+  background-color: rgb(50,50, 51);
   color : white;
 }
+.Navbar{
+  padding-top: 10px;
+}
 .choix{
-  
+  color: rgb(216, 214, 214);
+  text-decoration: none;
   padding: 20px;
+
+}
+.choix:hover{
+  color: aliceblue;
 }
 
 </style>
