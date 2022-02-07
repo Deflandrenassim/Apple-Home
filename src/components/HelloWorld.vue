@@ -1,19 +1,27 @@
 <template>
-  <div>
-    <carousel>
+  <div class="container">
+    <carousel
+    :autoplay="true"
+    :autoplayTimeout="3000"
+    :mouse-drage="true"
+    >
       <slide>
-        <img class="images" src="@/assets/imgs/ipadPro.png" alt="ipad pro " >
+        <img class="images" src="@/assets/imgs/ipadPro.png" alt="ipad pro ">
       </slide>
       <slide>
-        <img src="@/assets/imgs/iphone13pro.png" alt="ipad pro " >
+        <img class="images" src="@/assets/imgs/iphone13pro.png" alt="ipad pro " >
       </slide>
       <slide>
-        <img src="@/assets/imgs/macbookproM1.png" alt="ipad pro " >
+        <img  class="images" src="@/assets/imgs/macbookproM1.png" alt="ipad pro " >
       </slide>
-      <slide>
-        <img src="@/assets/imgs/watch7.png" alt="ipad pro " >
+      <slide
+      :autoplay="false"
+      >
+        <img class="images" src="@/assets/imgs/watch7.png" alt="ipad pro " >
       </slide>
-    </carousel>
+    </carousel
+   
+    >
     
     <h1> {{ titre }}</h1>
 
@@ -36,9 +44,14 @@ import { Carousel, Slide } from 'vue-carousel';
 
   }
 </script>
-<style>
-.img{
-  height: 40px;
-  width: 40px;
+<style scoped>
+
+.images{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  height: 60px;
+  cursor:pointer;
+  width: 70px;
 }
 </style>
