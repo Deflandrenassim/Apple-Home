@@ -1,6 +1,7 @@
 <template>
   <div>
      <nav class="Navbar">
+       <i class="fab fa-apple">  </i>
         <router-link to="/" class="choix"> Home  </router-link> 
         <router-link to="/Iphone" class="choix"> IPHONE  </router-link> 
         <router-link to="/Ipad" class="choix"> IPAD </router-link> 
@@ -30,13 +31,13 @@ export default {
   display: flex;
   justify-content: center;
   height: 5vh;
-  background-color: rgb(50,50, 51);
+  background-color: rgb(250, 250, 255);
   color : white;
 }
 .Navbar{
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color:rgb(51 51 51);
   color: white;
   padding-top: 10px;
 }
@@ -49,6 +50,10 @@ export default {
 .choix:hover{
   color: aliceblue;
 }
+.fab .fa{
+  padding-top: 100px;
+}
+
 
 </style>
 
