@@ -50,8 +50,9 @@ export default {
 .choix:hover{
   color: aliceblue;
 }
-.fab .fa{
-  padding-top: 100px;
+.fa-apple{
+  padding-top: 20px;
+  padding-right: 20px;
 }
 
 

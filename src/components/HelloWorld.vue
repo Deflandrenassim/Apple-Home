@@ -1,14 +1,25 @@
 <template>
   <div>
-    <h1> hello  bienvenue sur N'APPLE</h1>
+    <h1> Hello World Welcome to NASS'PPLE</h1>
 
+    <carousel>
+      <slide>
+        
+      </slide>
+    </carousel>
     
   </div>
 </template>
 
 <script>
+import { Carousel, Slide } from 'vue-carousel';
   export default {
-    name: 'HelloWorld'
+    name: 'HelloWorld',
+    components : {
+      Carousel,
+      Slide
+
+    }
 
   }
 </script>
