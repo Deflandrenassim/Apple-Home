@@ -1,6 +1,7 @@
 <template>
   <div>
-    <p> hello  bienvenue</p>
+    <h1> hello  bienvenue sur N'APPLE</h1>
+
     
   </div>
 </template>

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div class="containe">
      <nav class="Navbar">
         <router-link to="/" class="choix"> Home  </router-link> 
         <router-link to="/Iphone" class="choix"> IPHONE  </router-link> 
@@ -12,7 +11,7 @@
 
     <router-view/>
     </div>
-  </div>
+  
 </template>
 
 <script>
@@ -27,7 +26,7 @@ export default {
 
 <style>
 
-.containe{
+.Nav{
   display: flex;
   justify-content: center;
   height: 5vh;
@@ -35,6 +34,10 @@ export default {
   color : white;
 }
 .Navbar{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
   padding-top: 10px;
 }
 .choix{

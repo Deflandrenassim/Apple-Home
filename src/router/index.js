@@ -17,10 +17,7 @@ const routes = [
   {
     path: '/Iphone',
     name: 'Iphone',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Iphone.vue')
+    component : Iphone
   },
   {
     path: '/Ipad',
@@ -31,9 +28,13 @@ const routes = [
     path: '/Airpods',
     name : 'Airpods',
     component : Airpods
-
-
+  },
+  {
+    path: '/Mac',
+    name : 'Mac',
+    component : Mac
   }
+
 
 ]
 
