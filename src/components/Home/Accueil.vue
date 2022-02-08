@@ -23,8 +23,9 @@ export default {
   data() {
     return {
       titre: "La nouveauté APPLE ",
-      iphone: " Iphone 13 Pro Max",
+      iphone: " iPhone 13 Pro Max",
       prix: "A partir de 1109 euros ",
+      info: "L'infiniment Pro."
     };
   },
 };
@@ -35,6 +36,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10px; 
 }
 h1{
   padding-top: 10px;
@@ -46,18 +48,26 @@ h1{
     font-size: 35px;
 }
 .price{
-    font-size:30px;
+    font-size:25px;
 }
+
 .my-image {
-  height: 160px;
-  width: 250px;
+  height: 75vh;
+  width: 80vh;
 }
 .btn{
-    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 45px;
     width: 70px;
+    border-radius: 30px 30px ;
     background-color: #06c;
     color: white;
    
+}
+.btn:hover{
+    background-color: rgb(4, 90, 177);
 }
 
 

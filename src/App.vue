@@ -30,6 +30,7 @@ export default {
 .Nav{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   height: 5vh;
   background-color: rgb(250, 250, 255);
   color : white;
