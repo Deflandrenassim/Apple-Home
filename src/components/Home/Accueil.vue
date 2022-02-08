@@ -2,7 +2,10 @@
   <div>
     <h1> {{ titre }} </h1>
         <div class="container">
-           <img src="@/assets/imgs/ipadPro.png" alt="Iphone Pro max " >
+            <span> {{ iphone }}</span>
+            <span> </span>
+           <img src="@/assets/imgs/IphoneAccueil.jpg" alt="Iphone Pro max " >
+           <button type="button" > Acheter</button>
         </div>
 
 
@@ -14,7 +17,8 @@ export default {
     name: "Accueil",
     data() {
         return {
-            titre : "Les nouveautés APPLE "
+            titre : "Les nouveautés APPLE ",
+            iphone : " Iphone 13 Pro Max"
         }
     }
 }
