@@ -36,10 +36,10 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10px; 
+  padding: 19px; 
 }
 h1{
-  padding-top: 10px;
+  padding-top: 1Opx;
   display: flex;
   justify-content: center;
   text-transform: uppercase;
@@ -49,22 +49,24 @@ h1{
 }
 .price{
     font-size:25px;
+    padding: 10px;
 }
 
 .my-image {
-  height: 75vh;
+  height: 80vh;
   width: 80vh;
 }
+
 .btn{
     display: flex;
     justify-content: center;
     align-content: center;
-    height: 45px;
+    height: 40px;
     width: 70px;
     border-radius: 30px 30px ;
     background-color: #06c;
     color: white;
-   
+    
 }
 .btn:hover{
     background-color: rgb(4, 90, 177);
