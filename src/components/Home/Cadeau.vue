@@ -19,7 +19,7 @@ export default {
     name:'Cadeau',
     data() {
         return {
-            cadeau : "n cadeau de dernière minute, Vous êtes piles a l heure"
+            cadeau : "cadeau de dernière minute, Vous êtes piles a l heure"
         }
     }
 
@@ -28,14 +28,23 @@ export default {
 
 <style scoped>
 .background{
-  
+    height: 350px;
     width: 100%;
     background: #34283c;
 }
+h1{
+    color: white;
+    font-size: 40;
+}
+.my-cadeau{
+    display:flex;
+    justify-content: center;
+}
 .my-image{
-    height: 375px;
-    width: 255px;
-    filter : blur();
+   
+    height: 275px;
+    width: 355px;
+    color: white; 
 
 }
 </style>
