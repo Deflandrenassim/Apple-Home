@@ -1,10 +1,6 @@
 <template>
   <div>
-     <img
-          class="my-image"
-          src="@/assets/imgs/IphoneAccueil.jpg"
-          alt="Iphone Pro max "
-        />
+    
   </div>
 </template>
 
