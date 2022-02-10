@@ -9,8 +9,9 @@
         <router-link to="/Watch" class="choix"> WATCH  </router-link> 
         <router-link to="/Airpods" class="choix"> AIRPODS </router-link> 
       </nav>
-
+    <transition name="fade" mode="out-in">
     <router-view/>
+    </transition>
     </div>
   
 </template>
@@ -54,6 +55,13 @@ export default {
 .fa-apple{
   padding-top: 20px;
   padding-right: 20px;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+  transform: translateX(2em)
+}
+.fade-enter-active, .fade-leave-active{
+  transition: all .3s ease;
 }
 
 
