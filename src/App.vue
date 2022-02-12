@@ -8,6 +8,8 @@
         <router-link to="/Mac" class="choix"> MAC  </router-link> 
         <router-link to="/Watch" class="choix"> WATCH  </router-link> 
         <router-link to="/Airpods" class="choix"> AIRPODS </router-link> 
+        <hr>
+        
       </nav>
     <transition name="fade" mode="out-in">
     <router-view/>

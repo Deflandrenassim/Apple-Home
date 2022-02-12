@@ -6,9 +6,14 @@
          <img class="color" src="@/assets/icones/color12pro.png" alt="">
          <span class="nvx"> Nouveau </span>
          <h1> Iphone12pro </h1>
-         <button> Acheter </button>
+         <button class="acheter"> Acheter </button>
+         <img src="@/assets/icones/icone12pro.png">
+         <span> Système de photo pro</span>
+         <span>Téléobjectif, grand angle et ultra grand-angle</span>
+         <img src="@/assets/icones/A15.png">
         </div>
-         
+
+       
 
       </div>
   </div>
@@ -36,8 +41,16 @@ export default {
     height: 20px;
     width: 100px;
 }
-span{
+.nvx{
     color: #bf4800;
+}
+.acheter{
+    height: 30px;
+    width: 70px;
+    background-color: #06c;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
 }
 
 </style>
