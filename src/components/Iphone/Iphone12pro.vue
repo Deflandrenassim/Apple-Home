@@ -93,7 +93,10 @@ export default {
   align-items: center;
 }
 
-
+h1{
+    padding-top: 10px;;
+    padding-bottom: 15px;
+}
 .color {
   height: 20px;
   width: 100px;
@@ -108,12 +111,14 @@ export default {
   color: rgb(117, 115, 115);
 }
 .nvx {
+  padding-top: 10px;
   color: #bf4800;
 }
 .button {
   padding-top: 10px;
   padding-bottom: 17px;
 }
+
 .acheter {
   height: 30px;
   width: 70px;
