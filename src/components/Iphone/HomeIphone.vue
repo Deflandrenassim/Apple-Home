@@ -1,6 +1,6 @@
 <template>
   <div>
-        <h1> {{ titre }}</h1>
+        <h1 class=" animate__animated animate__slideInRight"> {{ titre }}</h1>
   </div>
 </template>
 
@@ -16,5 +16,7 @@ export default {
 </script>
 
 <style>
-
+h1{
+    padding-top: 20px;
+}
 </style>
