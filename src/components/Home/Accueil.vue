@@ -4,7 +4,7 @@
     <div class="container">
       <div class="title">{{ iphone }}</div>
       <div class="price">{{ prix }}</div>
-      <div class="btn"> <button type="submit">Acheter</button></div>
+      <div class="btn animate__animated animate__shakeX" > <button type="submit">Acheter</button></div>
      
       <div>
         <img

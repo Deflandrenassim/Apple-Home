@@ -2,8 +2,7 @@
   <div>
       <div class="Ipad"> 
       <h1 class="animate__animated animate__bounce"> Nouveau {{ titre }} </h1>
-        
-
+        <h3> {{ nouveau }}</h3>
           <img id="Ipad-mini" src="@/assets/imgs/IpadMini.jpg" alt="Mini tablette">
       </div>
 
@@ -17,7 +16,9 @@ export default {
     name:'IpadOne',
     data() {
         return {
-            titre : "iPad Mini "
+            titre : "iPad Mini",
+            nouveau : "Nouveau est robuste"
+
         }
     }
 }
@@ -26,13 +27,18 @@ export default {
 <style scoped>
 
 h1{
-display: flex;
-flex-direction: center;
-font-size: 35px;
-letter-spacing: 4px;
-position: absolute;
-top: 13%; left: 35%;
-
+    display: flex;
+    flex-direction: center;
+    font-size: 35px;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 10%; left: 37%;
+}
+h3{
+    font-size: 25px;
+    position: absolute;
+    top: 19%; left: 42%;
+    
 }
 
 

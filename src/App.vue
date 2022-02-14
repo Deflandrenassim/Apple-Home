@@ -30,6 +30,7 @@ export default {
 
 <style>
 
+
 .Nav{
   display: flex;
   justify-content: center;

@@ -1,6 +1,6 @@
 # projet 
 ```
-CSS = Vuetify and CSS 
+CSS = Vuetify & CSS & Animate Css effet
 
 ```
 ## Project setup
