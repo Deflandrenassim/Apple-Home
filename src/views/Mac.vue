@@ -1,13 +1,19 @@
 <template>
 <div>
-    
+    <macbook />
 </div>
   
 </template>
 
 <script>
+import Macbook from '../components/Mac/Macbook.vue'
+
 export default {
-    name: 'Mac'
+    name: 'Mac',
+    components: {
+        Macbook
+       
+    }
 }
 </script>
 
