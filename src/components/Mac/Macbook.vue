@@ -6,17 +6,17 @@
             <img src="@/assets/imgs/iphone12pro.jpg" alt="">
           </slide>
           <slide :index="1">
-          Slide 2 Content
+          <img src="@/assets/imgs/iphone12pro.jpg" alt="">
           </slide>
           <slide :index="2">
-             Slide 3 Content
+             <img src="@/assets/imgs/cadeau.png" alt="">
           </slide>
-          </carousel-3d>
+        </carousel-3d>
   </div>
 </template>
 
 <script>
-import { Carousel3d, Slide } from 'vue-carousel-3d';
+import { Carousel3d, Slide } from 'vue-carousel-3d'
 export default {
     name: 'Macbook',
     components: {
