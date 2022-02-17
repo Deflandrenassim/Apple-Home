@@ -1,15 +1,25 @@
 <template>
   <div>
       <h1> Hello mac </h1>
-        <carousel-3d>
+        <carousel-3d 
+        :autoplayTimeOut="5000"
+        :height="350"
+        :width="700"
+        >
           <slide :index="0">
-            <img src="@/assets/imgs/iphone12pro.jpg" alt="">
+            <img src="@/assets/imgs/mac1.png" alt="">
           </slide>
           <slide :index="1">
-          <img src="@/assets/imgs/iphone12pro.jpg" alt="">
+          <img src="@/assets/imgs/mac1.png" alt="">
           </slide>
           <slide :index="2">
-             <img src="@/assets/imgs/cadeau.png" alt="">
+             <img src="@/assets/imgs/mac1.png" alt="">
+          </slide>
+          <slide :index="3">
+             <img src="@/assets/imgs/mac1.png" alt="">
+          </slide>
+          <slide :index="4">
+             <img src="@/assets/imgs/mac1.png" alt="">
           </slide>
         </carousel-3d>
   </div>
@@ -28,5 +38,9 @@ export default {
 </script>
 
 <style>
-
+img {
+	height: 100%;
+  width: 100%;
+  display:block;
+}
 </style>
