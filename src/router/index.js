@@ -4,7 +4,8 @@ import Home from '../views/Home.vue'
 import Ipad from '../views/Ipad.vue'
 import Iphone from '../views/Iphone.vue'
 import Mac from '../views/Mac.vue'
-import Airpods from '../views/Airpods.vue'
+import Maps from '../views/Maps.vue'
+
 
 Vue.use(VueRouter)
 
@@ -25,15 +26,17 @@ const routes = [
     component: Ipad
   },
   {
-    path: '/Airpods',
-    name : 'Airpods',
-    component : Airpods
-  },
-  {
     path: '/Mac',
     name : 'Mac',
     component : Mac
+  },
+  {
+    path: '/Map',
+    name : 'Maps',
+    component : Maps
+
   }
+
 
 
 ]
