@@ -1,12 +1,12 @@
 <template>
   <div>
      <nav class="Navbar">
-       <i class="fab fa-apple">  </i>
-        <router-link to="/" class="choix"> Home  </router-link> 
-        <router-link to="/Iphone" class="choix"> IPHONE  </router-link> 
-        <router-link to="/Ipad" class="choix"> IPAD </router-link> 
-        <router-link to="/Mac" class="choix"> MAC  </router-link> 
-        <router-link to="/Map" class="choix"> MAPS </router-link> 
+       <i class=" fab fa-apple ">  </i>
+        <router-link to="/" class="choix"> <i class="fa-solid fa-house"></i>  </router-link> 
+        <router-link to="/Iphone" class="choix"> <i class="fa-solid fa-mobile-screen-button"></i> </router-link> 
+        <router-link to="/Ipad" class="choix"> <i class="fa-solid fa-tablet-screen-button"></i> </router-link> 
+        <router-link to="/Mac" class="choix"> <i class="fa-solid fa-desktop"></i> </router-link> 
+        <router-link to="/Map" class="choix"> <i class="fa-solid fa-map-location-dot"></i> </router-link> 
         <hr>
         
       </nav>
@@ -62,6 +62,9 @@ export default {
 }
 .fade-enter-active, .fade-leave-active{
   transition: all .3s ease;
+}
+.fa-solid{
+  font-size: 25px;
 }
 
 
