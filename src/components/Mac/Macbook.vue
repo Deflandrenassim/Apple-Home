@@ -1,6 +1,7 @@
 <template>
   <div>
       <h1 class="animate__animated animate__flipInX" > {{ titre }}</h1>
+      <h5> {{machine }}</h5>
       <div class="position">
 
       
@@ -23,7 +24,7 @@
              <img src="@/assets/imgs/puceM1.png" alt=" Puce M1 APPLE ">
           </slide>
           <slide :index="4">
-             <img src="@/assets/imgs/apple.png" alt="">
+             <img src="@/assets/imgs/apple.png" alt="Apple M1">
           </slide>
         </carousel-3d>
         </div>
@@ -40,7 +41,8 @@ export default {
   },
   data() {
     return {
-        titre : 'Voici notre GAMME Macbook'
+        titre : 'Voici notre GAMME Macbook',
+        machine : 'La puissance dans une machine'
     }
   }
 
@@ -56,5 +58,12 @@ img{
 }
 .position{
   margin-top: 8%;
+}
+h5{
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  font-family: cursive;
+  color: #9980FA;
 }
 </style>
