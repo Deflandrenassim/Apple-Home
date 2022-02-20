@@ -1,7 +1,7 @@
 <template>
   <div>
    
-   <leaf-let/>
+   <leafLet/>
   </div>
 </template>
 
