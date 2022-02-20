@@ -1,30 +1,28 @@
 <template>
-  <div class="map">
-      <l-map> 
-        <l-tileLayer>
-        
-        </l-tileLayer>
-      </l-map>
-  </div>
+  <l-map 
+   :zoom="zoom" 
+   :center="center">
+    <l-tile-layer :url="url" ></l-tile-layer>
+  </l-map>
 </template>
 
 <script>
+import {LMap, LTileLayer,} from 'vue2-leaflet';
 
-import { LMap, LTileLayer, } from 'vue2-leaflet';
-import 'leaflet/dist/leaflet.css';
 export default {
-    name:'LeafLet',
-    components:{
-        LMap,
-        LTileLayer,
-        
-    }
+  components: {
+    LMap,
+    LTileLayer,
+    
+  },
+  data () {
+    return {
+      url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      
+      zoom: 10,
+      center: [51.505, -0.159],
+      markerLatLng: [51.504, -0.159]
+    };
+  }
 }
 </script>
-
-<style>
-.map{
-  height: 100%;
-  width: 100%;
-}
-</style>

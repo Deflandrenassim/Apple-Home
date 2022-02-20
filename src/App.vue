@@ -39,6 +39,7 @@ export default {
 .Navbar{
   display: flex;
   justify-content: center;
+  padding-right: 15PX;
   background-color:rgb(51 51 51);
   color: white;
   padding-top: 10px;
@@ -63,8 +64,9 @@ export default {
 .fade-enter-active, .fade-leave-active{
   transition: all .3s ease;
 }
-.fa-solid{
+.fa-solid, .fab {
   font-size: 25px;
+
 }
 
 
