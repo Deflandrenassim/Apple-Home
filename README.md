@@ -1,7 +1,7 @@
 # projet 
 ```
 CSS = Vuetify & CSS & Animate Css effet
-Librairie = VueLeafLet
+Librairie = VueLeafLet ( Map)
 
 ```
 ## Project setup
