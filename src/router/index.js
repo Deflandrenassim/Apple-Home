@@ -4,7 +4,7 @@ import Home from '../views/Home.vue'
 import Ipad from '../views/Ipad.vue'
 import Iphone from '../views/Iphone.vue'
 import Mac from '../views/Mac.vue'
-import Maps from '../views/Maps.vue'
+
 
 
 Vue.use(VueRouter)
@@ -30,12 +30,7 @@ const routes = [
     name : 'Mac',
     component : Mac
   },
-  {
-    path: '/Map',
-    name : 'Maps',
-    component : Maps
-
-  }
+  
 
 
 

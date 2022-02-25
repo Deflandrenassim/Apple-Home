@@ -6,7 +6,7 @@
         <router-link to="/Iphone" class="choix"> <i class="fa-solid fa-mobile-screen-button"></i> </router-link> 
         <router-link to="/Ipad" class="choix"> <i class="fa-solid fa-tablet-screen-button"></i> </router-link> 
         <router-link to="/Mac" class="choix"> <i class="fa-solid fa-desktop"></i> </router-link> 
-        <router-link to="/Map" class="choix"> <i class="fa-solid fa-map-location-dot"></i> </router-link> 
+      
         <hr>
         
       </nav>
@@ -31,6 +31,7 @@ export default {
 .Nav{
   display: flex;
   justify-content: center;
+  
   flex-wrap: wrap;
   height: 5vh;
   background-color: rgb(250, 250, 255);
@@ -39,6 +40,7 @@ export default {
 .Navbar{
   display: flex;
   justify-content: center;
+  justify-content: space-evenly;
   padding-right: 15PX;
   background-color:rgb(51 51 51);
   color: white;
